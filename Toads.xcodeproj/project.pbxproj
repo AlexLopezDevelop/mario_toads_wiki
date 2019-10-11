@@ -15,6 +15,8 @@
 		ACEAFA722351134800674688 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ACEAFA702351134800674688 /* LaunchScreen.storyboard */; };
 		ACEAFA7D2351134900674688 /* ToadsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACEAFA7C2351134900674688 /* ToadsTests.swift */; };
 		ACEAFA882351134900674688 /* ToadsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACEAFA872351134900674688 /* ToadsUITests.swift */; };
+		ACEAFA96235114A400674688 /* Toad.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACEAFA95235114A400674688 /* Toad.swift */; };
+		ACEAFA98235128C800674688 /* StatsRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACEAFA97235128C800674688 /* StatsRow.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		ACEAFA832351134900674688 /* ToadsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ToadsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		ACEAFA872351134900674688 /* ToadsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToadsUITests.swift; sourceTree = "<group>"; };
 		ACEAFA892351134900674688 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ACEAFA95235114A400674688 /* Toad.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Toad.swift; sourceTree = "<group>"; };
+		ACEAFA97235128C800674688 /* StatsRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatsRow.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +110,8 @@
 				ACEAFA702351134800674688 /* LaunchScreen.storyboard */,
 				ACEAFA732351134800674688 /* Info.plist */,
 				ACEAFA6D2351134800674688 /* Preview Content */,
+				ACEAFA95235114A400674688 /* Toad.swift */,
+				ACEAFA97235128C800674688 /* StatsRow.swift */,
 			);
 			path = Toads;
 			sourceTree = "<group>";
@@ -268,8 +274,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				ACEAFA662351134700674688 /* AppDelegate.swift in Sources */,
+				ACEAFA96235114A400674688 /* Toad.swift in Sources */,
 				ACEAFA682351134700674688 /* SceneDelegate.swift in Sources */,
 				ACEAFA6A2351134700674688 /* ContentView.swift in Sources */,
+				ACEAFA98235128C800674688 /* StatsRow.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -436,6 +444,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"Toads/Preview Content\"";
+				DEVELOPMENT_TEAM = LX4P693W2D;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = Toads/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -455,6 +464,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"Toads/Preview Content\"";
+				DEVELOPMENT_TEAM = LX4P693W2D;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = Toads/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
