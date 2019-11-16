@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		ACC35023237FE93800A084A4 /* ToadRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACC35022237FE93800A084A4 /* ToadRow.swift */; };
+		ACC35025237FFD1200A084A4 /* ToadList.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACC35024237FFD1200A084A4 /* ToadList.swift */; };
 		ACEAFA662351134700674688 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACEAFA652351134700674688 /* AppDelegate.swift */; };
 		ACEAFA682351134700674688 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACEAFA672351134700674688 /* SceneDelegate.swift */; };
 		ACEAFA6A2351134700674688 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACEAFA692351134700674688 /* ContentView.swift */; };
@@ -39,6 +40,7 @@
 
 /* Begin PBXFileReference section */
 		ACC35022237FE93800A084A4 /* ToadRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToadRow.swift; sourceTree = "<group>"; };
+		ACC35024237FFD1200A084A4 /* ToadList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToadList.swift; sourceTree = "<group>"; };
 		ACEAFA622351134700674688 /* Toads.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Toads.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ACEAFA652351134700674688 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		ACEAFA672351134700674688 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -115,6 +117,7 @@
 				ACEAFA95235114A400674688 /* Toad.swift */,
 				ACEAFA97235128C800674688 /* StatsRow.swift */,
 				ACC35022237FE93800A084A4 /* ToadRow.swift */,
+				ACC35024237FFD1200A084A4 /* ToadList.swift */,
 			);
 			path = Toads;
 			sourceTree = "<group>";
@@ -281,6 +284,7 @@
 				ACC35023237FE93800A084A4 /* ToadRow.swift in Sources */,
 				ACEAFA682351134700674688 /* SceneDelegate.swift in Sources */,
 				ACEAFA6A2351134700674688 /* ContentView.swift in Sources */,
+				ACC35025237FFD1200A084A4 /* ToadList.swift in Sources */,
 				ACEAFA98235128C800674688 /* StatsRow.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
