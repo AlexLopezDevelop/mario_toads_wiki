@@ -28,15 +28,24 @@ struct ContentView: View {
                 .padding(.bottom, -80)
             
             Text("Red Toad")
-                .font(.title)
+                .font(.system(size: 30))
                 .padding(.bottom)
             
             Text("Aside from his red outfit, his most notable feature is probably...well...his distinct lack of notable features!")
-                .font(.footnote)
-                .padding(.leading)
-                .padding(.trailing)
+                .font(.system(size: 12))
+                .padding(.leading, 50)
+                .padding(.trailing, 50)
                 .multilineTextAlignment(.center)
-                
+                .padding(.bottom)
+            
+            Text("Stats")
+                .font(.system(size: 22))
+                .padding()
+            
+            StatsRow(statKey: "Batting", statValue: "⭐️⭐️⭐️")
+            StatsRow(statKey: "Pitching", statValue: "⭐️⭐️")
+            StatsRow(statKey: "Fielding", statValue: "⭐️⭐️")
+            StatsRow(statKey: "Running", statValue: "⭐️⭐️⭐️⭐️")
             
             Spacer()
             
@@ -44,8 +53,10 @@ struct ContentView: View {
     }
 }
 
+#if DEBUG
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
         ContentView()
     }
 }
+#endif

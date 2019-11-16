@@ -9,13 +9,19 @@
 import SwiftUI
 
 struct StatsRow: View {
+    
+    var statKey: String
+    var statValue: String
+    
     var body: some View {
         HStack {
-            Text("Batting:")
-                .font(.headline)
+            Text(statKey)
+                .font(.system(size: 15))
+                                .fontWeight(.bold)
                 .padding(.leading, 50)
             
-            Text("4/10")
+            Text(statValue)
+                .font(.system(size: 13))
                 .padding(.trailing, 50)
             
             Spacer()
@@ -25,6 +31,6 @@ struct StatsRow: View {
 
 struct StatsRow_Previews: PreviewProvider {
     static var previews: some View {
-        StatsRow()
+        StatsRow(statKey: "Batting", statValue: "3/5")
     }
 }
