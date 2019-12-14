@@ -11,7 +11,7 @@
 		ACC35025237FFD1200A084A4 /* ToadList.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACC35024237FFD1200A084A4 /* ToadList.swift */; };
 		ACEAFA662351134700674688 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACEAFA652351134700674688 /* AppDelegate.swift */; };
 		ACEAFA682351134700674688 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACEAFA672351134700674688 /* SceneDelegate.swift */; };
-		ACEAFA6A2351134700674688 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACEAFA692351134700674688 /* ContentView.swift */; };
+		ACEAFA6A2351134700674688 /* ToadDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACEAFA692351134700674688 /* ToadDetail.swift */; };
 		ACEAFA6C2351134800674688 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ACEAFA6B2351134800674688 /* Assets.xcassets */; };
 		ACEAFA6F2351134800674688 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ACEAFA6E2351134800674688 /* Preview Assets.xcassets */; };
 		ACEAFA722351134800674688 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ACEAFA702351134800674688 /* LaunchScreen.storyboard */; };
@@ -44,7 +44,7 @@
 		ACEAFA622351134700674688 /* Toads.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Toads.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ACEAFA652351134700674688 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		ACEAFA672351134700674688 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		ACEAFA692351134700674688 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		ACEAFA692351134700674688 /* ToadDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToadDetail.swift; sourceTree = "<group>"; };
 		ACEAFA6B2351134800674688 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		ACEAFA6E2351134800674688 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		ACEAFA712351134800674688 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -109,7 +109,7 @@
 			children = (
 				ACEAFA652351134700674688 /* AppDelegate.swift */,
 				ACEAFA672351134700674688 /* SceneDelegate.swift */,
-				ACEAFA692351134700674688 /* ContentView.swift */,
+				ACEAFA692351134700674688 /* ToadDetail.swift */,
 				ACEAFA6B2351134800674688 /* Assets.xcassets */,
 				ACEAFA702351134800674688 /* LaunchScreen.storyboard */,
 				ACEAFA732351134800674688 /* Info.plist */,
@@ -283,7 +283,7 @@
 				ACEAFA96235114A400674688 /* Toad.swift in Sources */,
 				ACC35023237FE93800A084A4 /* ToadRow.swift in Sources */,
 				ACEAFA682351134700674688 /* SceneDelegate.swift in Sources */,
-				ACEAFA6A2351134700674688 /* ContentView.swift in Sources */,
+				ACEAFA6A2351134700674688 /* ToadDetail.swift in Sources */,
 				ACC35025237FFD1200A084A4 /* ToadList.swift in Sources */,
 				ACEAFA98235128C800674688 /* StatsRow.swift in Sources */,
 			);

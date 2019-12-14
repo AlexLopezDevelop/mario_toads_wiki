@@ -13,7 +13,7 @@ struct ToadList: View {
         NavigationView {
             List(toads) {
                 toad in
-                NavigationLink(destination: ContentView()) {
+                NavigationLink(destination: ToadDetail(toad: toad)) {
                     ToadRow(toad: toad)
                 }
             }.navigationBarTitle(Text("Toads"), displayMode: .large)

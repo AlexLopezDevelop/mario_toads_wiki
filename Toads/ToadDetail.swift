@@ -8,7 +8,10 @@
 
 import SwiftUI
 
-struct ContentView: View {
+struct ToadDetail: View {
+    
+    var toad: Toad
+    
     var body: some View {
         
         VStack {
@@ -17,7 +20,7 @@ struct ContentView: View {
                 .resizable()
                 .frame(height: 300)
             
-            Image("toad-red")
+            Image(toad.imageName)
                 .resizable()
                 .frame(width: 200, height: 200)
                 .clipShape(Circle())
@@ -27,11 +30,11 @@ struct ContentView: View {
                 .offset(x: 0, y: -100)
                 .padding(.bottom, -80)
             
-            Text("Red Toad")
+            Text(toad.name)
                 .font(.system(size: 30))
                 .padding(.bottom)
             
-            Text("Aside from his red outfit, his most notable feature is probably...well...his distinct lack of notable features!")
+            Text(toad.bio)
                 .font(.system(size: 12))
                 .padding(.leading, 50)
                 .padding(.trailing, 50)
@@ -42,10 +45,11 @@ struct ContentView: View {
                 .font(.system(size: 22))
                 .padding()
             
-            StatsRow(statKey: "Batting", statValue: "⭐️⭐️⭐️")
-            StatsRow(statKey: "Pitching", statValue: "⭐️⭐️")
-            StatsRow(statKey: "Fielding", statValue: "⭐️⭐️")
-            StatsRow(statKey: "Running", statValue: "⭐️⭐️⭐️⭐️")
+            
+            StatsRow(statKey: "Batting", statValue: toad.batting)
+            StatsRow(statKey: "Pitching", statValue: toad.pitching)
+            StatsRow(statKey: "Fielding", statValue: toad.fielding)
+            StatsRow(statKey: "Running", statValue: toad.running)
             
             Spacer()
             
@@ -56,7 +60,7 @@ struct ContentView: View {
 #if DEBUG
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView()
+        ToadDetail(toad: toads[0])
     }
 }
 #endif
